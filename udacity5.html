@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tell Me More About UDACITY</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa; /* Faint light blue background */
+        }
+
+        h1 {
+            margin-top: 20px;
+            font-size: 2.5em;
+            color: #001f54; /* Dark blue for contrast */
+            text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f;
+            text-align: center;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: row; /* Align paragraph and card side by side */
+            justify-content: space-between; /* Space between paragraph and card */
+            width: 90%;
+            max-width: 1200px; /* Restrict width for better layout */
+            margin: 20px auto; /* Center content with spacing */
+        }
+
+        .paragraph {
+            width: 60%;
+            height: 200px; /* Fixed height for scrollable area */
+            background-color: #ffffff; /* White background for contrast */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+            color: #001f54; /* Dark blue text */
+            font-size: 1.1em;
+            text-align: left;
+            overflow-y: auto; /* Enables vertical scrolling for long text */
+        }
+
+        .card {
+            width: 200px;
+            height: 250px;
+            background-color: #001f54; /* Dark blue */
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 20px 5px white, 0 0 30px 10px white; /* LED glow effect */
+            transform: rotateX(10deg) rotateY(10deg); /* 3D floating effect */
+            animation: float 3s ease-in-out infinite; /* Floating animation */
+        }
+
+        .logo {
+            font-size: 4em; /* Slightly smaller "U" */
+            font-weight: bold;
+            color: white;
+        }
+
+        .description {
+            font-size: 1em;
+            color: white;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .extra-content {
+            width: 90%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fefefe; /* Light background for additional sections */
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            font-size: 1.1em;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: rotateX(10deg) rotateY(10deg) translateY(0);
+            }
+            50% {
+                transform: rotateX(10deg) rotateY(10deg) translateY(-15px); /* Floating motion */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Tell Me More About UDACITY!</h1>
+    <div class="content">
+        <div class="paragraph">
+            <p>
+                Udacity is an incredibly helpful platform offering a wide range of courses designed to build in-demand skills.
+                Its interactive and it  allows students to apply what they learn to real-world scenarios,
+                ensuring a deeper understanding of complex topics. Whether you're exploring coding, data science, or digital marketing,
+                Udacity provides access to expert instructors, career services, and industry-recognized certifications.
+                This makes it an excellent choice for anyone looking to enhance their prospects, boost their career, or embark on a new learning journey.
+            </p>
+        </div>
+        <div class="card">
+            <div class="logo">U</div>
+            <div class="description">Empowering lifelong learning.</div>
+        </div>
+    </div>
+    <!-- Extra content to ensure scrolling -->
+     <body>
+    <a href="answer 1.html">
+   <button style="font-size:20px; background-color: rgb(0, 183, 255);border-radius: 5px;">What are the available courses at Udacity?</button>
+     </a>
+</body><body><a href="answer 2.html">
+    <button style="font-size: 20px; background-color: rgb(0, 217, 255);border-radius: 5px;">How can I enroll in a Udacity course?
+    </button>
+</a></body>
+<button onclick="dosomething()" style="font-size: 20px; background-color: rgb(0, 217, 255);border-radius: 5px;">Click me two times!
+</button><p id="greeting">Thank you for visiting our website!</p>
+<script>
+    function dosomething(){ document.getElementById("greeting").innerHTML = "I hope you start your journey today with udacity"}
+</script>
+<body>
+    <img src="ud.jpg.jpg" alt="udacity students working together"
+</body>
+</html>
+
+
+
